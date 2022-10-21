@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppMarsPropertyTrading001</string>
+    <string-array name="mars_property_array">
+        <item>MarsProperty-001</item>
+        <item>MarsProperty-002</item>
+        <item>MarsProperty-003</item>
+        <item>MarsProperty-004</item>
+        <item>MarsProperty-005</item>
+        <item>MarsProperty-006</item>
+        <item>MarsProperty-007</item>
+        <item>MarsProperty-008</item>
+        <item>MarsProperty-009</item>
+        <item>MarsProperty-010</item>
+        <item>MarsProperty-011</item>
+        <item>MarsProperty-012</item>
+        <item>MarsProperty-013</item>
+        <item>MarsProperty-014</item>
+        <item>MarsProperty-015</item>
+    </string-array>
+</resources>
