@@ -16,11 +16,15 @@ class MarsPropertyAdapter(val propertyList: List<String>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MarsPropertyViewHolder {
 /**
- *  this implemntation doesn't inherit layout_width="match_parent" from parent View
+ *  this implemntation doesn't inherit layout_width="match_parent" from parent View.
+ *  Не происходит наследование "match_parent" из родительского View, по умолчанию используется
+ *  "wrap_content", что приводит к "укороченному" изображению элементов списка в RecyclerView.
  */
     //  return MarsPropertyViewHolder(PropertyItemBinding.inflate(LayoutInflater.from(parent.context)))
 /**
- * this implemntation DOES inherit layout_width="match_parent" from parent View
+ * this implemntation DOES inherit layout_width="match_parent" from parent View.
+ * Наследование выполняется и в случае если в родительском View размер (например по ширине "layout_widht")
+ * как "match_parent", то ширина элемента списка будет во весь экран, что смотрится красивее.
 */
         return MarsPropertyViewHolder(PropertyItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
     }
