@@ -14,12 +14,4 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="property_name_text">
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:background">?attr/colorSecondaryVariant</item>
-        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
-    </style>
-
 </resources>
